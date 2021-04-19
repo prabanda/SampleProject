@@ -30,14 +30,14 @@ public class SpringController {
 		return modelAndView; 
 		
 	}
-	@RequestMapping(path="/search", method = RequestMethod.GET)
-	public ModelAndView getData(ModelAndView modelAndView,HttpServletRequest request) {
-		String name=request.getParameter("name");
-		modelAndView.addObject("UserName", name);
-//		request.setAttribute("UserName",name);
-		modelAndView.setViewName("NewHome");
-		return modelAndView;
-		}
+//	@RequestMapping(path="/search", method = RequestMethod.GET)
+//	public ModelAndView getData(ModelAndView modelAndView,HttpServletRequest request) {
+//		String name=request.getParameter("name");
+//		modelAndView.addObject("UserName", name);
+////		request.setAttribute("UserName",name);
+//		modelAndView.setViewName("NewHome");
+//		return modelAndView;
+//		}
 	@GetMapping("/login")
 	public String getLogin() {
 		return "LoginForm";
