@@ -1,5 +1,4 @@
 <%@page import="com.te.springmvc.dto.EmployeeBean"%>
-<%@page import="lombok.EqualsAndHashCode.Include"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ include file="Header.jsp"%>
