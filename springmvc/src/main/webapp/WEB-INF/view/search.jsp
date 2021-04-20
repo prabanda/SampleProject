@@ -36,7 +36,7 @@ EmployeeBean bean = (EmployeeBean) request.getAttribute("data");
 					<td><input type="submit" value="search"></td>
 				</tr>
 			</table>
-		</form>
+		
 		<%
 		if (bean != null) {
 		%>
@@ -52,6 +52,7 @@ EmployeeBean bean = (EmployeeBean) request.getAttribute("data");
 		<%
 		}
 		%>
+			</form>
 
 	</fieldset>
 
